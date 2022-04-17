@@ -1,0 +1,21 @@
+<html>
+    <body>
+        <h1>Predicting Credit Card Default</h1>
+        <form action="http://127.0.0.1:5000/" method="post">
+            <p> Please enter AGE</p>
+            <p> <input type = "number" name = "age"> </p>
+            <p>Please enter LIMIT_BAL</p>
+            <p> <input type = "number" name = "limitbal"> </p>
+            <p>Please enter PAY_0</p>
+            <p> <input type = "number" name = "pay0"> </p>
+            <p>Please enter BILL_AMT1</p>
+            <p> <input type = "number" name = "billamt1"> </p>
+            <p> <input type = "submit"> </p>
+            
+        </form>
+        <p>Logistic Regression: {{result1}}</p>
+        <p>Decision Tree: {{result2}}</p>
+        <p>Random Forest: {{result3}}</p>
+        <p>XGBoost: {{result4}}</p>
+    </body>
+</html>
